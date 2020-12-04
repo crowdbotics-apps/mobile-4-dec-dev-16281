@@ -1,4 +1,14 @@
 import axios from "axios"
+import { CONNECTOR_1212_TOKEN } from "react-native-dotenv"
+const connector = axios.create({
+  baseURL:
+    "https://crowdbotics-slack-dev.herokuapp.com/dashboard/app/16281/storyboard/15456/",
+  headers: {
+    Accept: "application/json",
+    "Content-Type": "application/json",
+    Authorization: `Bearer ${CONNECTOR_1212_TOKEN}`
+  }
+})
 const plugin = axios.create({
   baseURL:
     "https://crowdbotics-slack-dev.herokuapp.com/dashboard/app/7307/storyboard/8491/",
