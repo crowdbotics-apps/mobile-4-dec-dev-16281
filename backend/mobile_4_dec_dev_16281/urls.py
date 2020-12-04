@@ -38,6 +38,13 @@ urlpatterns = [
     path("api/v1/", include("hghg.api.v1.urls")),
     path("api/v1/", include("hghgh.api.v1.urls")),
     path("api/v1/", include("ytyt.api.v1.urls")),
+    path("cfhfdh/", include("cfhfdh.urls")),
+    path("gfgf/", include("gfgf.urls")),
+    path("hghg/", include("hghg.urls")),
+    path("hghgh/", include("hghgh.urls")),
+    path("homejhgjhgjg/", include("homejhgjhgjg.urls")),
+    path("ytyt/", include("ytyt.urls")),
+    path("yututuyt/", include("yututuyt.urls")),
 ]
 
 admin.site.site_header = "mobile 4 dec"
